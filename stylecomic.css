@@ -1,0 +1,115 @@
+*{
+    width: 100%;
+}
+
+body {
+    background-image: url(./imagenesregister/fondoregister.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    }
+.carousel-control-prev-icon {
+    background-image: url(./animacionescomic/flechaizquierda.png);
+}
+
+.carousel-control-next-icon {
+    background-image: url(./animacionescomic/flechaderecha.png);
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 5rem;
+    height: 7rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+}
+
+.carousel{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.carousel-indicators{
+
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.interacion{
+    width: 10%;
+    position: absolute;
+    z-index: 1000;
+    top: 50%;
+    left: 15%;
+
+    animation:heartbeat 1.5s ease-in-out infinite both
+}
+
+@keyframes heartbeat{from{transform:scale(1);transform-origin:center center;animation-timing-function:ease-out}10%{transform:scale(.91);animation-timing-function:ease-in}17%{transform:scale(.98);animation-timing-function:ease-out}33%{transform:scale(.87);animation-timing-function:ease-in}45%{transform:scale(1);animation-timing-function:ease-out}}
+
+.interacion2{
+    width: 10%;
+    position: absolute;
+    z-index: 1000;
+    top: 50%;
+    left: 15%;
+
+    animation:heartbeat 1.5s ease-in-out infinite both
+}
+
+@keyframes heartbeat{from{transform:scale(1);transform-origin:center center;animation-timing-function:ease-out}10%{transform:scale(.91);animation-timing-function:ease-in}17%{transform:scale(.98);animation-timing-function:ease-out}33%{transform:scale(.87);animation-timing-function:ease-in}45%{transform:scale(1);animation-timing-function:ease-out}}
+
+.interacion3{
+    width: 10%;
+    position: absolute;
+    z-index: 1000;
+    top: 62%;
+    left: 63%;
+
+    animation:heartbeat 1.5s ease-in-out infinite both
+}
+
+@keyframes heartbeat{from{transform:scale(1);transform-origin:center center;animation-timing-function:ease-out}10%{transform:scale(.91);animation-timing-function:ease-in}17%{transform:scale(.98);animation-timing-function:ease-out}33%{transform:scale(.87);animation-timing-function:ease-in}45%{transform:scale(1);animation-timing-function:ease-out}}
+
+
+.instrucciones{
+    width: 5%;
+    position: absolute;
+    z-index: 1000;
+    top: 87%;
+    left: 89%; 
+}
+
+.home{
+    width: 5%;
+    position: absolute;
+    z-index: 1000;
+    top: 87%;
+    left: 83%; 
+}
+
+.oculto{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

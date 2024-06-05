@@ -1,0 +1,151 @@
+body {
+  background-image: url(./imagenesregister/fondoregister.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  }
+
+  .encabezado{
+    height: 6rem;
+    background-color: lightcyan;
+  }
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 480px;
+    background: rgb(43,174,228);
+    background: linear-gradient(90deg, rgba(43,174,228,1) 2%, rgba(64,222,254,1) 52%, rgba(71,179,198,1) 98%);
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    font-family: Poppins;
+  }
+
+
+  @font-face {
+    font-family: Poppins;
+    src: url(./fonts/Poppins-Medium.ttf);
+  }
+  .registrarse{
+    padding: 2rem 0 0 0;  
+  }
+  .title {
+    font-size: 28px;
+    color:white;
+    font-weight: 600;
+    letter-spacing: -1px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+  }
+  
+  .title::before,.title::after {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    left: 0px;
+    background-color: #fece00;
+  }
+  
+  .title::before {
+    width: 18px;
+    height: 18px;
+    background-color:#fece00;
+  }
+  
+  .title::after {
+    width: 18px;
+    height: 18px;
+    animation: pulse 1s linear infinite;
+  }
+  
+  .message, .signin {
+    color:white;
+    font-size: 14px;
+  }
+  
+  .signin {
+    text-align: center;
+  }
+  
+  .signin a {
+    color: #fece00;
+  }
+  
+  .signin a:hover {
+    text-decoration: underline #fece00;
+  }
+  
+  .flex {
+    display: flex;
+    width: 100%;
+    gap: 6px;
+  }
+  
+  .form label {
+    position: relative;
+  }
+  
+  .form label .input {
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 30px;
+  }
+  
+  .form label .input + span {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    color: grey;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+  }
+  
+  .form label .input:placeholder-shown + span {
+    top: 15px;
+    font-size: 0.9em;
+  }
+  
+  .form label .input:focus + span,.form label .input:valid + span {
+    top: 30px;
+    font-size: 0.7em;
+    font-weight: 600;
+  }
+  
+  .form label .input:valid + span {
+    color:#fece00;
+  }
+  
+  .submit {
+    border: none;
+    outline: none;
+    background-color: #fece00;
+    padding: 10px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 16px;
+    transform: .3s ease;
+  }
+  
+  .submit:hover {
+    background-color: #ff9300;
+  }
+  
+  @keyframes pulse {
+    from {
+      transform: scale(0.9);
+      opacity: 1;
+    }
+  
+    to {
+      transform: scale(1.8);
+      opacity: 0;
+    }
+  }

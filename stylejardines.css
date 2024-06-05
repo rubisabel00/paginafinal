@@ -1,0 +1,31 @@
+  
+*{
+        font-family: Poppins; 
+    width: 100%;}
+
+        @font-face {
+            font-family: Poppins;
+            src: url(./fonts/Poppins-Medium.ttf);
+          }
+
+body {
+    background-image: url(./imagenes/jardinesex.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    }
+
+    .titulo{
+        padding: 10rem 0 0 0;
+        font-weight: bold;
+        color: white;
+        font-size: 4rem;
+        margin-bottom: 1.5rem;
+        text-align: center;
+      }
+
+      .parraf{
+    color: black;
+    font-size: 18px;
+    text-align: justify;
+      }

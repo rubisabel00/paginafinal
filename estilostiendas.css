@@ -1,0 +1,231 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+    background-image: url(./imagenestienda/fondotienda.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    }
+
+    @font-face {
+      font-family: Poppins;
+      src: url(./fonts/Poppins-Medium.ttf);
+    }
+
+    ::-webkit-scrollbar {
+      width: 1rem;
+    }
+    
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px rgba(104, 69, 4, 0.719); 
+      border-radius: 1rem;
+    }
+     
+    ::-webkit-scrollbar-thumb {
+      background: #3fa9f5;
+      border-radius: 1rem;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+      background: #Fece00; 
+    } 
+
+.logo{    
+    width: 60%;
+}
+.iconos-header{
+  width: 20%;
+  color: #fece00;
+}
+
+  header .text-end {
+    display: flex;
+    align-items: center;
+  }
+  
+  header .text-end img {
+    height: 30px;
+  }
+  .texto1{
+padding: 8rem 0 0 0;
+  }
+  .h1{
+    background-color: #Fece00;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-family: poppins;
+  }
+
+  .parrafo1 {
+    margin-bottom: 2rem;
+    text-align: center;
+    color: white;
+    font-family: poppins;
+  }
+
+  .card {
+background-color: #47b0c2;
+border: none;
+border-radius: 10px;
+  }
+
+   .card-img-top {
+    padding: 1rem 1rem 1rem 1rem;
+   border-radius: 5px;
+  }
+  
+  
+  section .btn-block {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+
+  .btn{   
+    background-color: #fece00;
+    height: 10%;
+    width: 100%;
+    color: white;
+    border: none;
+    border-radius:40px;
+    font-family: poppins;
+  }
+
+  .card-title{
+    color: white;
+    font-family: poppins;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .sc{
+    background-color: white;
+    color:#fece00;
+    border: none;
+    width: 30%;
+    height: 30%;
+    padding: 15px;
+    border-radius:40px;
+    font-family: poppins;
+  }
+
+  .btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #fece00;
+    --bs-btn-border-color: #fece00;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #fece00;
+    --bs-btn-hover-border-color: #fece00;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #fece00;
+    --bs-btn-active-border-color: #fece00;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #fece00;
+    --bs-btn-disabled-border-color: #fece00;
+}
+
+.btn:hover{ 
+  background-color: #29abe2;
+}
+
+
+.iconsfooter{
+color: #fece00;
+}
+
+.email{
+  padding-top: 8rem;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  font-family: poppins;
+}
+
+.redes{
+  padding-bottom: 1rem;
+}
+
+.redes a{ 
+  text-decoration: none;
+}
+
+@media screen and (min-width:360px) and (max-width:600px){
+
+.texto1 {
+    padding: 0 0 0 0;
+}
+
+.encabezado{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+  display: flex;
+  justify-content: flex-start;
+}
+.iconos-header{
+  width: 100%;
+  color: #fece00;
+}
+
+.email {
+  padding-top: 1rem;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  font-family: poppins;
+  
+}
+}
+
+@media screen and (min-width:600px) and (max-width:991px){
+
+  
+  .iconos-header{
+    width: 40%;
+    color: #fece00;
+  }
+  .texto1 {
+    padding: 0 0 0 0;
+}
+
+.encabezado{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+  display: flex;
+  justify-content: flex-start;
+}
+.iconos-header{
+  width: 100%;
+  color: #fece00;
+}
+
+.email {
+  padding-top: 1rem;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  font-family: poppins;
+  
+}
+}
+
+@media screen and (min-width:992px)and (max-width:1400px) {
+  .iconos-header{
+    width: 20%;
+    color: #fece00;
+  }
+  
+}
